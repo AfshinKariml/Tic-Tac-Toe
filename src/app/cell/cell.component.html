@@ -1,0 +1,12 @@
+<div 
+  class="cell w-24 h-24 flex items-center justify-center text-5xl font-bold border-2 border-gray-400 cursor-pointer transition-all duration-200"
+  [ngClass]="{
+    'hover:bg-gray-100': value === '',
+    'text-red-600': value === 'X',
+    'text-blue-600': value === 'O',
+    'bg-red-50': value === 'X',
+    'bg-blue-50': value === 'O'
+  }"
+  (click)="handleClick($event)">
+  {{ value }}
+</div>
