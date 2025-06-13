@@ -23,7 +23,7 @@ A modern and responsive Tic-Tac-Toe game built with **Angular 19** and **Tailwin
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/tic-tac-toe-angular.git
+git clone https://github.com/AfshinKariml/Tic-Tac-Toe.git
 cd tic-tac-toe-angular
 ```
 
